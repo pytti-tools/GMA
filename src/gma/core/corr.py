@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import math
-from utils.utils import bilinear_sampler, coords_grid
+from .utils.utils import bilinear_sampler, coords_grid
 # from compute_sparse_correlation import compute_sparse_corr, compute_sparse_corr_torch, compute_sparse_corr_mink
 
 try:

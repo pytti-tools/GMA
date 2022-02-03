@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from gma import Aggregate
+from .gma import Aggregate
 
 
 class FlowHead(nn.Module):
